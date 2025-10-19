@@ -1,26 +1,38 @@
 {
   margin:0;
   padding:0;
+  top: 0;
 }
 
 body{
   background-color:white;
   color:#2c2c72;
   justify-content:center;
+  
 }
 .nav{
-  display:flex;  
+  display:flex; 
+  position: fixed;
+  top:0;
+  justify-content:center;
 }
 
 nav ul{
+  background:#2c2c72;
   list-type:none;
   width:100%;
     gap:20px;
+}
+nav a{
+  text-decoration:none;
+  color:white;
+  font-weight:bold;
 }
 
 table{
   margin:18px auto;
     border: solid black;
+  width:20%;
 }
 
 th{
