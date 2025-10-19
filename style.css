@@ -23,3 +23,12 @@ table{
     border: solid black;
 }
 
+th{
+ background:#2c2c72; 
+  color:white;
+}
+table img{
+  height:100px;
+  width:100px;
+  object-fit:cover;
+}
